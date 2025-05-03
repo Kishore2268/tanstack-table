@@ -1,7 +1,7 @@
 import { useState, useCallback, useEffect } from 'react';
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api/users';
+const API_URL = 'https://tanstack-table-kzbw.onrender.com/api/users';
 
 /**
  * Custom hook for fetching and managing paginated users with sorting and searching
